@@ -1,5 +1,11 @@
 <main class="grid-container">
   @for (cat of catList; track $index) {
-  <app-image [imgUrl]="cat.url"></app-image>
+  <app-image [imgUrl]="cat.url">
+    <app-btn-favorite
+      [index]="$index"
+      [isFavorite]="favoritesIds.includes(cat.id)"
+      (isFavorite$)="onFavoriteToggle($event)"
+    ></app-btn-favorite>
+  </app-image>
   }
 </main>

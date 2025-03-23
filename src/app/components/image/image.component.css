@@ -9,7 +9,7 @@ picture div {
 .card {
   width: fit-content;
   background-color: whitesmoke;
-  padding: 1rem 1rem 5rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   border-radius: 6px;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.25);
 }

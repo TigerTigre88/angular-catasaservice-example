@@ -1,0 +1,23 @@
+nav {
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+
+a.active {
+  border-bottom: 2px solid palevioletred;
+}
