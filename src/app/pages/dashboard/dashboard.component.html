@@ -1,6 +1,7 @@
 <main class="grid-container">
   @for (cat of catList; track $index) {
   <app-image [imgUrl]="cat.url">
+    <!-- Project btn favorite component inside the app image component -->
     <app-btn-favorite
       [index]="$index"
       [isFavorite]="favoritesIds.includes(cat.id)"
